@@ -3,13 +3,6 @@
 $account_expires = esc_attr(get_user_meta($user->ID, 'account_expires', true)) ? "checked='yes'" : '';
 $expiry_date = date('Y-m-d', esc_attr(get_user_meta($user->ID, 'expiry_date', true)));
 
-error_log('parse in');
-error_log(get_user_meta($user->ID, 'account_expires', true));
-error_log(get_user_meta($user->ID, 'expiry_date', true));
-error_log(date('y-m-d', get_user_meta($user->ID, 'expiry_date', true)));
-
-#echo esc_attr(get_user_meta($user->ID, 'account_expires', $true));
-#date('yy-mm-dd',get_user_meta($user->ID, 'expiry_date', $true));
 ?>
 
 
