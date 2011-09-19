@@ -3,7 +3,7 @@
 Plugin Name: Wordpress Account Expiry
 Plugin URI: https://github.com/standardtoaster/wp_account_expiry
 Description: Allows accounts to have expiry dates. Expired accounts cannot be logged in
-Version: 1.0
+Version: 1.0.1
 Author: Andrew Preece
 Author URI: http://www.latefortea.com
 License: CC0
