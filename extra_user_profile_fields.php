@@ -1,7 +1,7 @@
 <?php  
 
 $account_expires = esc_attr(get_user_meta($user->ID, 'account_expires', true)) ? "checked='yes'" : '';
-$expiry_date = date('Y-m-d', esc_attr(get_user_meta($user->ID, 'expiry_date', true)));
+$expiry_date = date('Y-m-d', (int)esc_attr(get_user_meta($user->ID, 'expiry_date', true)));
 
 ?>
 

@@ -83,7 +83,7 @@ END;
 		{
 			if (!get_user_meta( $user_id, 'account_expires', true))
 				return 'Never';
-			return date('Y-m-d', esc_attr(get_user_meta($user_id, 'expiry_date', true)));		
+			return date('Y-m-d', (int)esc_attr(get_user_meta($user_id, 'expiry_date', true)));		
 		}
 		return $default;
 	}
