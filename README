@@ -20,5 +20,8 @@ e.g.
 
 == Changelog ==
 
+= 1.0.1 =
+*  ensured datatypes during display of dates to prevent warnings. 
+
 = 1.0 =
 *  Basic implementation
